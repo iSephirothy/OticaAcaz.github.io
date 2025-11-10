@@ -9,6 +9,7 @@ body {
   color: #333;
 }
 
+/* Header */
 header {
   background: #004aad;
   color: white;
@@ -34,16 +35,17 @@ nav a {
   font-weight: 500;
 }
 
-.hero {
+/* Banner */
+.banner {
   background: linear-gradient(to right, #004aad, #0077ff);
   color: white;
   text-align: center;
-  padding: 80px 20px;
+  padding: 100px 20px;
 }
 
-.hero h2 {
-  font-size: 2.5em;
-  margin-bottom: 10px;
+.banner h1 {
+  font-size: 3em;
+  margin-bottom: 15px;
 }
 
 .btn {
@@ -60,14 +62,9 @@ nav a {
   background: #e6e6e6;
 }
 
+/* Seções */
 section {
   padding: 60px 0;
-}
-
-.container {
-  width: 90%;
-  margin: auto;
-  max-width: 1000px;
 }
 
 h2 {
@@ -76,7 +73,9 @@ h2 {
   margin-bottom: 30px;
 }
 
-.produtos .grid {
+/* Grid de produtos */
+.produtos .grid,
+.promocoes .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
@@ -101,6 +100,7 @@ h2 {
   transform: scale(1.05);
 }
 
+/* Footer */
 footer {
   background: #004aad;
   color: white;

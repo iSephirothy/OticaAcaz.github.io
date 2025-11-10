@@ -1,4 +1,3 @@
-// Exemplo: mudar banner automaticamente
 let banners = [
   "Bem-vindo à Ótica Acaz",
   "Promoções incríveis todo mês",

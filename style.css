@@ -23,6 +23,10 @@ header .container {
   align-items: center;
 }
 
+header .logo {
+  height: 60px;
+}
+
 nav a {
   color: white;
   text-decoration: none;
@@ -80,12 +84,17 @@ h2 {
 
 .card {
   background: #f7f7f7;
-  padding: 30px;
+  padding: 20px;
   border-radius: 10px;
   text-align: center;
   font-weight: 500;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   transition: 0.3s;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
 }
 
 .card:hover {
